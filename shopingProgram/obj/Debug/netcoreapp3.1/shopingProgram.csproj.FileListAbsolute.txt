@@ -1,0 +1,12 @@
+/Users/ashin/Code/PracticeGit/CsharpTreeHouse/shopingProgram/bin/Debug/netcoreapp3.1/shopingProgram.deps.json
+/Users/ashin/Code/PracticeGit/CsharpTreeHouse/shopingProgram/bin/Debug/netcoreapp3.1/shopingProgram.runtimeconfig.json
+/Users/ashin/Code/PracticeGit/CsharpTreeHouse/shopingProgram/bin/Debug/netcoreapp3.1/shopingProgram.runtimeconfig.dev.json
+/Users/ashin/Code/PracticeGit/CsharpTreeHouse/shopingProgram/bin/Debug/netcoreapp3.1/shopingProgram.dll
+/Users/ashin/Code/PracticeGit/CsharpTreeHouse/shopingProgram/bin/Debug/netcoreapp3.1/shopingProgram.pdb
+/Users/ashin/Code/PracticeGit/CsharpTreeHouse/shopingProgram/obj/Debug/netcoreapp3.1/shopingProgram.csprojAssemblyReference.cache
+/Users/ashin/Code/PracticeGit/CsharpTreeHouse/shopingProgram/obj/Debug/netcoreapp3.1/shopingProgram.AssemblyInfoInputs.cache
+/Users/ashin/Code/PracticeGit/CsharpTreeHouse/shopingProgram/obj/Debug/netcoreapp3.1/shopingProgram.AssemblyInfo.cs
+/Users/ashin/Code/PracticeGit/CsharpTreeHouse/shopingProgram/obj/Debug/netcoreapp3.1/shopingProgram.csproj.CoreCompileInputs.cache
+/Users/ashin/Code/PracticeGit/CsharpTreeHouse/shopingProgram/obj/Debug/netcoreapp3.1/shopingProgram.dll
+/Users/ashin/Code/PracticeGit/CsharpTreeHouse/shopingProgram/obj/Debug/netcoreapp3.1/shopingProgram.pdb
+/Users/ashin/Code/PracticeGit/CsharpTreeHouse/shopingProgram/obj/Debug/netcoreapp3.1/shopingProgram.genruntimeconfig.cache
