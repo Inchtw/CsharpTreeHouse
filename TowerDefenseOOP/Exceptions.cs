@@ -11,13 +11,13 @@ namespace TreehouseDefense
 
         }
     }
-    class OutrOfBoundsException : TreehouseDefenseException
+    class OutOfBoundsException : TreehouseDefenseException
     {
-        public OutrOfBoundsException()
+        public OutOfBoundsException()
         {
 
         }
-        public OutrOfBoundsException(string message) : base(message)
+        public OutOfBoundsException(string message) : base(message)
         {
 
         }
