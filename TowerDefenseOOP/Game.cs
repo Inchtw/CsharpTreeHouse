@@ -33,48 +33,39 @@ namespace TreehouseDefense
                     new MapLocation(3, 2, map),
                     new MapLocation(4, 2, map),
                     new MapLocation(5, 2, map),
-                    new MapLocation(6, 2,map),
-                    new MapLocation(7, 2,map)
+                    new MapLocation(6, 2, map),
+                    new MapLocation(7, 2, map)
                     };
 
                 Path path = new Path(arrays);
 
-                MapLocation location = path.GetLocationAt(0);
-
-                Console.WriteLine(location.X + "," + location.Y);
 
 
-                Path abc = new Path(
-                    new[] {
-                    new MapLocation(0, 2, map),
-                    new MapLocation(1, 2, map),
-                    new MapLocation(2, 2, map),
-                    new MapLocation(3, 2, map),
-                    new MapLocation(4, 2, map),
-                    new MapLocation(5, 2, map),
-                    new MapLocation(6, 2,map),
-                    new MapLocation(7, 2,map)
-                    }
-                );
+                Invader[] invaders = {
+                    new Invader(path),
+                    new Invader(path),
+                    new Invader(path),
+                    new Invader(path)
+                };
 
-                // MapLocation location2 = abc.GetLocationAt(8);
-                // if (location2 != null)
-                // {
-                //     Console.WriteLine(location2.X + "," + location2.Y);
-                // }
+                Tower[] towers = {
+                    new Tower(new MapLocation(1, 3, map)),
+                    new Tower(new MapLocation(3, 3, map)),
+                    new Tower(new MapLocation(5, 3, map))
+                };
 
-                Invader invader = new Invader(abc);
-                //  MapLocation invaderlocation = new MapLocation(1, 2, map);
-                // invader.Location = invaderlocation;
-                // invaderlocation = invader.Location;
-                // MapLocation invaderlocation2 = new MapLocation(3, 2, map);
-                // invader.Location = invaderlocation2;
-                // invaderlocation2 = invader.Location;
-                // Console.WriteLine(invader.Location.X + "," + invader.Location.Y);
-                // MapLocation ppp = new MapLocation(9, 4, map);
+                Level level = new Level(invaders)
+                {
+                    Towers = towers // 可以直接這樣寫 不然要寫成 level.Towers = towers; 
+                    // 這是傳說中的 property
 
-                // Console.WriteLine(point.DistanceTo(ppp));
+                };
 
+                // level.Towers = towers;
+                bool result = level.Play();
+                Console.WriteLine(result);
+
+                Console.WriteLine("Player " + (result ? "won" : "lost"));
 
             }
             catch (OutOfBoundsException ex)

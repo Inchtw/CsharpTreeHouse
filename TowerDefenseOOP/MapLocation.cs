@@ -11,5 +11,10 @@ namespace TreehouseDefense
             }
 
         }
+        // for tower foreach
+        public bool InRangeOf(MapLocation location, int range)
+        {
+            return DistanceTo(location) <= range;
+        }
     }
 }

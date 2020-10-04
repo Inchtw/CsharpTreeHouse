@@ -75,8 +75,8 @@ namespace TreehouseDefense
 
         // property practice 
         public bool HasScored { get { return _pathStep >= _path.Length; } }
-        public bool IsNuetralized => Health <= 0;
-        public bool IsActive => !(IsNuetralized || HasScored);
+        public bool IsNeutralized => Health <= 0;
+        public bool IsActive => !(IsNeutralized || HasScored);
 
     }
 }
